@@ -1,0 +1,27 @@
+{
+  "name": "red-zipper-css-html5client",
+  "version": "0.0.1",
+  "description": "The custom stylessheet for the Bina school styles for BBB",
+  "main": "bina.css",
+  "scripts": {
+    "start": "postcss src/**/*.css -o bina.css",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binaschool/red-zipper.git"
+  },
+  "author": "Simon Kenyon Shepard",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/binaschool/red-zipper/issues"
+  },
+  "homepage": "https://github.com/binaschool/red-zipper#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.8.2",
+    "postcss-cli": "^7.1.1",
+    "stylelint": "^13.6.1",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
