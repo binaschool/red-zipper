@@ -2,6 +2,7 @@
   --font-family-sans-serif: "Lato", helvetica, arial, sans-serif;
   --color-primary: #632aa7;
   --color-hover: #4a1f7d;
+  --color-primary-light: #b194d3;
   --color-yellow: #ffe916;
   --color-light-yellow: #fff48a;
   --color-off-white: #fffce7;
@@ -65,4 +66,8 @@ div[class*="listItem--"] .icon-bbb-copy {
 
 div[class*="chatThumbnail--"] {
   color: var(--color-primary);
+}
+
+textarea[class*="input--"] {
+  box-shadow: 0 0 0 var(--border-size) var(--color-primary-light), inset 0 0 0 1px var(--color-primary);
 }
