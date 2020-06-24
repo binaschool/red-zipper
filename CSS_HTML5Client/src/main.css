@@ -52,5 +52,5 @@ span[class*="primary--"] {
 }
 
 div[class*="chatThumbnail--"] {
-  color: var(--color-yellow);
+  color: var(--color-primary);
 }
