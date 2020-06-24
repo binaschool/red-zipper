@@ -30,20 +30,21 @@ div[class*="userlistPad--"] {
 
 div[class*="active--"][class*="chatListItem--"] {
   background-color: var(--color-light-yellow);
-  box-shadow: none;
+  box-shadow: inset 0 0 0 var(--border-size) var(--color-yellow), inset 1px 0 0 1px var(--color-yellow);
 }
 
 div[role="button"][class*="listItem--"] {
   background-color: var(--color-light-yellow);
-  box-shadow: none;
+  box-shadow: inset 0 0 0 var(--border-size) var(--color-yellow), inset 1px 0 0 1px var(--color-yellow);
 }
 
 div[class*="active--"][class*="chatListItem--"]:hover {
-  background-color: var(--color-yellow);
+  background-color: var(--color-light-yellow);
+  box-shadow: none;
 }
 
 div[role="button"][class*="listItem--"]:hover {
-  background-color: var(--color-yellow);
+  background-color: var(--color-light-yellow);
   box-shadow: none;
 }
 
