@@ -4,7 +4,7 @@
   --color-hover: #4a1f7d;
   --color-yellow: #ffe916;
   --color-off-white: #fffce7;
-  --border-size: 15px;
+  --border-button-size: 15px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
@@ -14,10 +14,15 @@ body {
 }
 
 div[class*="confirm--"] {
+  border-radius: var(--border-button-size);
   color: var(--color-yellow) !important;
 }
 
 div[class*="confirm--"]:hover {
   background-color: var(--color-hover) !important;
   color: var(--color-white) !important;
+}
+
+div[class*="userlistPad--"] {
+  border-right: 1px solid var(--color-gray-lighter);
 }
