@@ -3,7 +3,7 @@
   --color-primary: #632aa7;
   --color-hover: #4a1f7d;
   --color-yellow: #ffe916;
-  --color-light-yellow: #FFF48A;
+  --color-light-yellow: #fff48a;
   --color-off-white: #fffce7;
   --border-button-size: 15px;
 }
@@ -30,5 +30,5 @@ div[class*="userlistPad--"] {
 
 div[class*="active--"][class*="chatListItem--"] {
   background-color: var(--color-light-yellow);
-  box-shadow : none;
+  box-shadow: none;
 }
