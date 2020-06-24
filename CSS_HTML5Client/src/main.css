@@ -1,9 +1,23 @@
 :root {
   --font-family-sans-serif: "Lato", helvetica, arial, sans-serif;
+  --color-primary: #632aa7;
+  --color-hover: #4a1f7d;
+  --color-yellow: #ffe916;
+  --color-off-white: #fffce7;
+  --border-size: 15px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
   font-family: var(--font-family-sans-serif);
+}
+
+div[class*="confirm--"] {
+  color: var(--color-yellow) !important;
+}
+
+div[class*="confirm--"]:hover {
+  background-color: var(--color-hover) !important;
+  color: var(--color-white) !important;
 }
