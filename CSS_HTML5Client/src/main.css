@@ -5,6 +5,8 @@
   --color-yellow: #ffe916;
   --color-light-yellow: #fff48a;
   --color-off-white: #fffce7;
+  --color-success: #268743;
+  --color-danger: #d52a1e;
   --border-button-size: 15px;
 }
 
@@ -33,7 +35,17 @@ div[class*="active--"][class*="chatListItem--"] {
   box-shadow: inset 0 0 0 var(--border-size) var(--color-yellow), inset 1px 0 0 1px var(--color-yellow);
 }
 
+div[class*="usertListItemWithMenu--"] {
+  background-color: var(--color-light-yellow);
+  box-shadow: inset 0 0 0 var(--border-size) var(--color-yellow), inset 1px 0 0 1px var(--color-yellow);
+}
+
 div[role="button"][class*="chatListItem--"]:hover {
+  background-color: var(--color-light-yellow);
+  box-shadow: none;
+}
+
+div[class*="userListItem--"]:hover {
   background-color: var(--color-light-yellow);
   box-shadow: none;
 }
