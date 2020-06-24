@@ -50,3 +50,7 @@ span[class*="primary--"] {
 div[class*="listItem--"] .icon-bbb-copy {
   color: var(--color-primary);
 }
+
+div[class*="chatThumbnail--"] {
+  color: var(--color-primary);
+}
