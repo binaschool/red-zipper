@@ -1,0 +1,1 @@
+javascript:(function() {var link = document.createElement("link");link.type = "text/css";link.rel = "stylesheet";link.href = "https://binaschool.github.io/red-zipper/CSS_HTML5Client/bina.css";document.head.appendChild(link);})();
