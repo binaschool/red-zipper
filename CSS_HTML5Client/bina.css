@@ -14,12 +14,12 @@ body {
   font-family: var(--font-family-sans-serif);
 }
 
-div[class*="confirm--"] {
+button[class*="confirm--"] {
   border-radius: var(--border-button-size);
   color: var(--color-yellow) !important;
 }
 
-div[class*="confirm--"]:hover {
+button[class*="confirm--"]:hover {
   background-color: var(--color-hover) !important;
   color: var(--color-white) !important;
 }
