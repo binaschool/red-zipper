@@ -33,6 +33,24 @@ div[class*="active--"][class*="chatListItem--"] {
   box-shadow: none;
 }
 
+div[role="button"][class*="listItem--"] {
+  background-color: var(--color-light-yellow);
+  box-shadow: none;
+}
+
+div[class*="active--"][class*="chatListItem--"]:hover {
+  background-color: var(--color-yellow);
+}
+
+div[role="button"][class*="listItem--"]:hover {
+  background-color: var(--color-yellow);
+  box-shadow: none;
+}
+
 span[class*="primary--"] {
+  color: var(--color-yellow);
+}
+
+div[class*="chatThumbnail--"] {
   color: var(--color-yellow);
 }
