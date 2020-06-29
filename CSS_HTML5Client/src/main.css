@@ -72,3 +72,11 @@ div[class*="chatThumbnail--"] {
 textarea[class*="input--"]:focus {
   box-shadow: 0 0 0 var(--border-size) var(--color-primary-light), inset 0 0 0 1px var(--color-primary);
 }
+
+div[class*="bottom--"] {
+  display: none;
+}
+
+div[class*="navbar--"] {
+  height: auto;
+}
