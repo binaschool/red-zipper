@@ -19,8 +19,10 @@
 ## Git repository
 The project is (https://github.com/binaschool)
 There are three projects:
-* A fork of bigbluebutton, containing our changes
-* A fork of greenlight, allowing to configure a stylesheet for bigbluebutton (not Greenlight itself), this functionality is currently unused
+* BigblueButton - A fork of bigbluebutton, containing our changes
+* greenlight - A fork of greenlight, allowing to configure a stylesheet for bigbluebutton (not Greenlight itself), this functionality is currently unused
+* binaApp - A POC of how a Bina Electron desktop app might be constructed
+* red-zipper - A support repo for documentation such as this.
 
 ## Credentials
 The credentials are held by Zach Bowen.
