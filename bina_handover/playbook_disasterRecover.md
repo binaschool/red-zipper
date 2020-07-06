@@ -28,3 +28,7 @@ The BBB server contains multiple components required to run the BBB application.
   * Contact BBM (contact@bigbluemeeting.com) and ask them to create a new BBB server with the existing ssh keys. BBM need to also update the DNS entries to point to this new server IP and need to build the server in the correct data-center (at time of writing the Production server is in Europe & the staging server is in the US).
   * Once the new server is setup under the correct domain and you can test it by launching a meeting from the relevant greenlight server. You should see a meeting room with the unmodified HTML5 Client in blue.
   * To add the Bina customisations follow the [guide : customising a BBM server](guide_customClientDeployment.md)
+
+## DNS fails
+The DNS is controlled by the BBM team, but is critical to keep the applications running, given how many handovers there are between applications. 
+* Should the DNS fail to resolve contact BigBlueMeeting support (contact@bigbluemeeting.com) with a reference to the domain (Production or staging and datacenter location) and ask them to resolve.
