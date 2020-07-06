@@ -57,4 +57,4 @@ cd bigbluebutton-html5
 ```
 
 ##### Common issues
-If the server builds the package but you miss the moment to enter the SSH passphrase and the connection times out, don’t worry. For staging you can run the ./deployOnly_stg.sh and for production you can run ./deployOnly_prod.sh
+If the server builds the package but you miss the moment to enter the SSH passphrase and the connection times out, don’t worry. For staging you can run the `./deployOnly_stg.sh` and for production you can run `./deployOnly_prod.sh`
