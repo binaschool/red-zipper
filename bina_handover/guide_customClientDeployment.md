@@ -48,7 +48,7 @@ cd bigbluebutton-html5
 [after the docker build is complete, it will push & deploy the artifacts to the server, you need to enter the passphrase from the private key]
 ```
 
-#####Staging
+##### Staging
 Run the following commands :
 ```
 cd bigbluebutton-html5
@@ -56,5 +56,5 @@ cd bigbluebutton-html5
 [after the docker build is complete, it will push & deploy the artifacts to the server, you need to enter the passphrase from the private key]
 ```
 
-#####Common issues
+##### Common issues
 If the server builds the package but you miss the moment to enter the SSH passphrase and the connection times out, don’t worry. For staging you can run the ./deployOnly_stg.sh and for production you can run ./deployOnly_prod.sh
