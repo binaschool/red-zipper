@@ -2,7 +2,7 @@
 
 ## Documentation
 * [Bina disaster recovery playbook](playbook_disasterRecover.md)
-* [Bina BBB runbook](runbook_binaBBB.md)
+* [Bina BBB runbook](https://docs.google.com/document/d/1MckCnSsNP7bMYSosEHc9Pm4wnum7m_r-AEqTMJckE98/edit?usp=sharing)
 * [Guide : customising a BBM server](guide_customClientDeployment.md)
 
 ## URLS
