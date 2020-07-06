@@ -2,7 +2,7 @@
 ## Overview
 The Bina BigBlueButton infrastructure consists of 4 core components :
 
-
+![Basic architecture diagram](basicArch.png)
 
 Below is a playbook for what to do in the case that each of these components fail.
 
