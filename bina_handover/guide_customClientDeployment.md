@@ -28,33 +28,33 @@ Host *.bigbluemeeting.com
 
 1. Download the git repo
 2. Create a new folder & clone the BBB fork repo with
-`
+```
 Git clone git@github.com:binaschool/bigbluebutton.git
 Cd bigbluebutton
-`
+```
 3. Change to the 2.2.x release branch
-`
+```
 Git checkout v2.2.x-release
-`
+```
 4. Build and deploy the code
 
 > Before building and deploying the code, make sure your docker installation has enough memory configured, click on the docker icon in the top bar, Preferences->Resources->Memory - needs to be minimum 8gig for the build script to run successfully.
 
 ##### Prod
 Run the following commands :
-`
+```
 cd bigbluebutton-html5
 ./deploy_prod.sh
 [after the docker build is complete, it will push & deploy the artifacts to the server, you need to enter the passphrase from the private key]
-`
+```
 
 #####Staging
 Run the following commands :
-`
+```
 cd bigbluebutton-html5
 ./deploy_stg.sh
 [after the docker build is complete, it will push & deploy the artifacts to the server, you need to enter the passphrase from the private key]
-`
+```
 
 #####Common issues
 If the server builds the package but you miss the moment to enter the SSH passphrase and the connection times out, don’t worry. For staging you can run the ./deployOnly_stg.sh and for production you can run ./deployOnly_prod.sh
