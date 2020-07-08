@@ -13,11 +13,15 @@ In order to provide a unique experience for Bina students and teachers, we have 
 #### Install SSH keys
 
 1. Obtain the SSH keys from Zach Bowen
-2. Copy the files : id_rsa_bina & id_rsa_bina.pub to the ~/.ssh/ 3. directory
+2. Copy the files : id_rsa_bina & id_rsa_bina.pub to the ~/.ssh/directory
 4. Edit the file ~/.ssh/config and add the lines :
 
 `
-Host *.bigbluemeeting.com
+Host staging.bina.bigbluemeeting.com
+     User root
+     IdentityFile ~/.ssh/id_rsa_bina
+
+Host bina.bigbluemeeting.com
      User root
      IdentityFile ~/.ssh/id_rsa_bina
 `
